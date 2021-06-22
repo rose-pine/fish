@@ -13,7 +13,7 @@
 
 ## Usage
 
-1. Copy `rose-pine.fish` to `~/.config/fish/`
+1. Copy `rose_pine.fish` to `~/.config/fish/functions/`
 2. Start a new fish session
 3. Run `rose_pine` (or `rose_pine dawn` / `rose_pine moon`)
 

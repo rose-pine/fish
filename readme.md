@@ -13,9 +13,21 @@
 
 ## Usage
 
-1. Copy `rose_pine.fish` to `~/.config/fish/functions/`
+1. Download `rose_pine.fish`
+
+```sh
+mkdir -p ~/.config/fish/functions && cd ~/.config/fish/functions
+curl -O https://raw.githubusercontent.com/rose-pine/fish/main/rose_pine.fish
+```
+
 2. Start a new fish session
-3. Run `rose_pine` (or `rose_pine dawn` / `rose_pine moon`)
+3. Activate theme
+
+```sh
+rose_pine
+rose_pine moon
+rose_pine dawn
+```
 
 ## Gallery
 

@@ -25,7 +25,7 @@ Download the variant of your choice from `themes` and place it inside `~/.config
 
 ## Usage
 
-1. Add `fish_config theme choose "Rose Pine {Dawn, Moon}` to `~/.config/fish/config.fish`
+1. Add `fish_config theme choose "Rose Pine {Dawn, Moon}"` to `~/.config/fish/config.fish`
 2. Reload fish via `exec fish`
 
 ## Gallery

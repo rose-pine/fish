@@ -48,7 +48,7 @@ Download the variant of your choice from `themes` and place it inside `~/.config
 
 ## Contributing
 
-Modify `source.fish` using Rosé Pine variables, then build variants:
+Modify `source.theme` using Rosé Pine variables, then build variants:
 
 ```sh
 npx @rose-pine/build@latest -f hex-ns -t ./source.fish -o ./themes

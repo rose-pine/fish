@@ -1,0 +1,41 @@
+# syntax highlighting variables
+# https://fishshell.com/docs/current/interactive.html#syntax-highlighting-variables
+fish_color_normal $text
+fish_color_command $iris
+fish_color_keyword $foam
+fish_color_quote $gold
+fish_color_redirection $pine
+fish_color_end $subtle
+fish_color_error $love
+fish_color_param $rose
+fish_color_comment $subtle
+# fish_color_match --background=brblue
+fish_color_selection --reverse
+# fish_color_history_current --bold
+fish_color_operator $text
+fish_color_escape $pine
+fish_color_autosuggestion $subtle
+fish_color_cwd $rose
+# fish_color_cwd_root red
+fish_color_user $gold
+fish_color_host $foam
+fish_color_host_remote $iris
+fish_color_cancel $text
+fish_color_search_match --background=$base
+fish_color_valid_path
+
+# pager color variables
+# https://fishshell.com/docs/current/interactive.html#pager-color-variables
+fish_pager_color_progress $rose
+fish_pager_color_background --background=$surface
+fish_pager_color_prefix $foam
+fish_pager_color_completion $subtle
+fish_pager_color_description $subtle
+fish_pager_color_secondary_background
+fish_pager_color_secondary_prefix
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_selected_background --background=$overlay
+fish_pager_color_selected_prefix $foam
+fish_pager_color_selected_completion $text
+fish_pager_color_selected_description $text

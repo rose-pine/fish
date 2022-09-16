@@ -32,15 +32,15 @@ Download the variant of your choice from `themes` and place it inside `~/.config
 
 **Rosé Pine**
 
-![Rosé Pine with fish](assets/rose-pine.png)
+![Rosé Pine with fish](https://user-images.githubusercontent.com/1474821/190716340-3aaba0fe-c10e-4bbf-99a1-ebc3f2567591.png)
 
 **Rosé Pine Moon**
 
-![Rosé Pine Moon with fish](assets/rose-pine-moon.png)
+![Rosé Pine Moon with fish](https://user-images.githubusercontent.com/1474821/190716374-1ae6e6fc-ff05-474f-a454-ce9c16506d69.png)
 
 **Rosé Pine Dawn**
 
-![Rosé Pine Dawn with fish](assets/rose-pine-dawn.png)
+![Rosé Pine Dawn with fish](https://user-images.githubusercontent.com/1474821/190716377-d54f0573-afb3-4552-90ab-cf6d91d92b3a.png)
 
 ## Thanks to
 

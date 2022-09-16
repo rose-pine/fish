@@ -21,7 +21,7 @@ fisher install rose-pine/fish
 
 Install manually:
 
-Download the variant of your choice from the `themes` and place it inside the `~/.config/fish/themes`
+Download the variant of your choice from `themes` and place it inside `~/.config/fish/themes`
 
 ## Usage
 

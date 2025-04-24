@@ -39,3 +39,13 @@ fish_pager_color_selected_background --background=f2e9e1
 fish_pager_color_selected_prefix 56949f
 fish_pager_color_selected_completion 575279
 fish_pager_color_selected_description 575279
+
+# custom color variables
+fish_color_subtle 797593
+fish_color_text 575279
+fish_color_love b4637a
+fish_color_gold ea9d34
+fish_color_rose d7827e
+fish_color_pine 286983
+fish_color_foam 56949f
+fish_color_iris 907aa9

@@ -42,6 +42,21 @@ Download the variant of your choice from `themes` and place it inside `~/.config
 
 ![Rosé Pine Dawn with fish](https://user-images.githubusercontent.com/1474821/190716377-d54f0573-afb3-4552-90ab-cf6d91d92b3a.png)
 
+## Further Customizations
+
+Want to theme your prompt or tweak other elements? You can use the following variables:
+
+```fish
+$fish_color_subtle
+$fish_color_text
+$fish_color_love
+$fish_color_gold
+$fish_color_rose
+$fish_color_pine
+$fish_color_foam
+$fish_color_iris
+```
+
 ## Thanks to
 
 - [mvllow](https://github.com/mvllow)

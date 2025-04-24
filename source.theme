@@ -39,3 +39,13 @@ fish_pager_color_selected_background --background=$overlay
 fish_pager_color_selected_prefix $foam
 fish_pager_color_selected_completion $text
 fish_pager_color_selected_description $text
+
+# custom color variables
+fish_color_subtle $subtle
+fish_color_text $text
+fish_color_love $love
+fish_color_gold $gold
+fish_color_rose $rose
+fish_color_pine $pine
+fish_color_foam $foam
+fish_color_iris $iris

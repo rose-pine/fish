@@ -28,6 +28,19 @@ Download the variant of your choice from `themes` and place it inside `~/.config
 1. Add `fish_config theme choose "Rosé Pine {Dawn, Moon}"` to `~/.config/fish/config.fish`
 2. Reload fish via `exec fish`
 
+### Color-theme-aware themes (fish 4.3+)
+
+Fish 4.3 added support for themes that automatically switch between dark and light variants based on your terminal's background color. Use the "Auto" themes to enable this:
+
+- **Rosé Pine Auto** - Switches between Rosé Pine (dark) and Rosé Pine Dawn (light)
+- **Rosé Pine Moon Auto** - Switches between Rosé Pine Moon (dark) and Rosé Pine Dawn (light)
+
+```fish
+fish_config theme choose "Rosé Pine Auto"
+# or
+fish_config theme choose "Rosé Pine Moon Auto"
+```
+
 ## Gallery
 
 **Rosé Pine**

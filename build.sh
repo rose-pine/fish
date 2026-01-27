@@ -9,17 +9,17 @@ mv ./themes/rose-pine-moon.theme "./themes/Rosé Pine Moon.theme"
 # These automatically switch between dark and light variants based on terminal background
 
 create_auto_theme() {
-    dark_theme="$1"
-    light_theme="$2"
-    output="$3"
+	dark_theme="$1"
+	light_theme="$2"
+	output="$3"
 
-    {
-        echo "[dark]"
-        cat "$dark_theme"
-        echo ""
-        echo "[light]"
-        cat "$light_theme"
-    } > "$output"
+	{
+		echo "[dark]"
+		cat "$dark_theme"
+		echo ""
+		echo "[light]"
+		cat "$light_theme"
+	} >"$output"
 }
 
 create_auto_theme "./themes/Rosé Pine.theme" "./themes/Rosé Pine Dawn.theme" "./themes/Rosé Pine Auto.theme"

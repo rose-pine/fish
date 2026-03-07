@@ -13,19 +13,19 @@
 
 ## Installation
 
-Install with [Fisher](https://github.com/jorgebucaran/fisher):
+### Fisher
 
 ```console
 fisher install rose-pine/fish
 ```
 
-Install manually:
+### Manual
 
-Download the variant of your choice from `themes` and place it inside `~/.config/fish/themes`
+Download the variant of your choice from `themes` and place it inside `~/.config/fish/themes`. For prompt integrations, copy the relevant file from `conf.d` to `~/.config/fish/conf.d`.
 
 ## Usage
 
-1. Add `fish_config theme choose "Rosé Pine {Dawn, Moon}"` to `~/.config/fish/config.fish`
+1. Add `fish_config theme choose "Rosé Pine"` to `~/.config/fish/config.fish` (or `"Rosé Pine Moon"` / `"Rosé Pine Dawn"`)
 2. Reload fish via `exec fish`
 
 ### Color-theme-aware themes (fish 4.3+)
@@ -55,11 +55,24 @@ fish_config theme choose "Rosé Pine Moon Auto"
 
 ![Rosé Pine Dawn with fish](https://user-images.githubusercontent.com/1474821/190716377-d54f0573-afb3-4552-90ab-cf6d91d92b3a.png)
 
-## Further Customizations
+## Prompt integrations
 
-Want to theme your prompt or tweak other elements? You can use the following variables:
+Rosé Pine includes color configs for [Pure](https://github.com/pure-fish/pure) and [Tide](https://github.com/IlanCosman/tide) prompts. If either prompt is installed, its colors are applied automatically when a Rosé Pine theme is active — no configuration needed. Colors update reactively when switching between variants.
+
+### Pure
+
+![Pure with Rosé Pine](assets/pure.png)
+
+### Tide
+
+![Tide with Rosé Pine](assets/tide.png)
+
+## Custom color variables
+
+The theme exposes the full Rosé Pine palette as `fish_color_*` variables for use in your own customizations:
 
 ```fish
+$fish_color_base
 $fish_color_subtle
 $fish_color_text
 $fish_color_love
@@ -73,6 +86,7 @@ $fish_color_iris
 ## Thanks to
 
 - [mvllow](https://github.com/mvllow)
+- [simono](https://github.com/simono)
 
 ## Contributing
 

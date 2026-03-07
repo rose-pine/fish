@@ -49,3 +49,4 @@ fish_color_rose $rose
 fish_color_pine $pine
 fish_color_foam $foam
 fish_color_iris $iris
+fish_color_base $base

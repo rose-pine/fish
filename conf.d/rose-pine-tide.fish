@@ -4,10 +4,10 @@
 # Automatically applies Rosé Pine colors to Tide prompt
 # when a Rosé Pine fish theme is active.
 
-type -q tide; or return
+type -q tide; or return 0
 
 function _rose_pine_tide_base --on-variable fish_color_base
-    set -q fish_color_base[1]; or return
+    set -q fish_color_base[1]; or return 0
     set -l base $fish_color_base[1]
 
     # All segment foreground colors use base
@@ -62,7 +62,7 @@ function _rose_pine_tide_base --on-variable fish_color_base
 end
 
 function _rose_pine_tide_iris --on-variable fish_color_iris
-    set -q fish_color_iris[1]; or return
+    set -q fish_color_iris[1]; or return 0
     set -l iris $fish_color_iris[1]
     set -gx tide_os_bg_color $iris
     set -gx tide_cmd_duration_bg_color $iris
@@ -72,7 +72,7 @@ function _rose_pine_tide_iris --on-variable fish_color_iris
 end
 
 function _rose_pine_tide_foam --on-variable fish_color_foam
-    set -q fish_color_foam[1]; or return
+    set -q fish_color_foam[1]; or return 0
     set -l foam $fish_color_foam[1]
     set -gx tide_pwd_bg_color $foam
     set -gx tide_git_bg_color $foam
@@ -83,7 +83,7 @@ function _rose_pine_tide_foam --on-variable fish_color_foam
 end
 
 function _rose_pine_tide_love --on-variable fish_color_love
-    set -q fish_color_love[1]; or return
+    set -q fish_color_love[1]; or return 0
     set -l love $fish_color_love[1]
     set -gx tide_git_bg_color_urgent $love
     set -gx tide_character_color_failure $love
@@ -93,7 +93,7 @@ function _rose_pine_tide_love --on-variable fish_color_love
 end
 
 function _rose_pine_tide_gold --on-variable fish_color_gold
-    set -q fish_color_gold[1]; or return
+    set -q fish_color_gold[1]; or return 0
     set -l gold $fish_color_gold[1]
     set -gx tide_git_bg_color_unstable $gold
     set -gx tide_jobs_bg_color $gold
@@ -101,7 +101,7 @@ function _rose_pine_tide_gold --on-variable fish_color_gold
 end
 
 function _rose_pine_tide_pine --on-variable fish_color_pine
-    set -q fish_color_pine[1]; or return
+    set -q fish_color_pine[1]; or return 0
     set -l pine $fish_color_pine[1]
     set -gx tide_character_color $pine
     set -gx tide_node_bg_color $pine
@@ -127,12 +127,12 @@ function _rose_pine_tide_pine --on-variable fish_color_pine
 end
 
 function _rose_pine_tide_rose --on-variable fish_color_rose
-    set -q fish_color_rose[1]; or return
+    set -q fish_color_rose[1]; or return 0
     set -gx tide_vi_mode_bg_color_replace $fish_color_rose[1]
 end
 
 function _rose_pine_tide_subtle --on-variable fish_color_subtle
-    set -q fish_color_subtle[1]; or return
+    set -q fish_color_subtle[1]; or return 0
     set -l subtle $fish_color_subtle[1]
     set -gx tide_prompt_color_frame_and_connection $subtle
     set -gx tide_prompt_color_separator_same_color $subtle

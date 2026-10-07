@@ -1,6 +1,7 @@
 #!/usr/bin/env sh
+set -eu
 
-npx @rose-pine/build@latest -f hex-ns -t ./source.theme -o ./themes
+bloom build ./source.theme --output ./themes --prefix '$' --format hex --plain
 mv ./themes/rose-pine.theme "./themes/Rosé Pine.theme"
 mv ./themes/rose-pine-dawn.theme "./themes/Rosé Pine Dawn.theme"
 mv ./themes/rose-pine-moon.theme "./themes/Rosé Pine Moon.theme"

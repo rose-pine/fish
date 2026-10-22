@@ -5,6 +5,9 @@
 # when a Rosé Pine fish theme is active.
 
 if type -q tide
+    set -g _rose_pine_tide_langs node python go rustc ruby java php elixir crystal zig bun \
+        aws gcloud kubectl terraform pulumi docker distrobox toolbox
+
     function _rose_pine_tide_base --on-variable fish_color_base
         set -q fish_color_base[1]; or return 0
         set -l base $fish_color_base[1]
@@ -30,25 +33,9 @@ if type -q tide
         set -gx tide_context_color_root $base
         set -gx tide_context_color_ssh $base
         set -gx tide_jobs_color $base
-        set -gx tide_node_color $base
-        set -gx tide_python_color $base
-        set -gx tide_go_color $base
-        set -gx tide_rustc_color $base
-        set -gx tide_ruby_color $base
-        set -gx tide_java_color $base
-        set -gx tide_php_color $base
-        set -gx tide_elixir_color $base
-        set -gx tide_crystal_color $base
-        set -gx tide_zig_color $base
-        set -gx tide_bun_color $base
-        set -gx tide_aws_color $base
-        set -gx tide_gcloud_color $base
-        set -gx tide_kubectl_color $base
-        set -gx tide_terraform_color $base
-        set -gx tide_pulumi_color $base
-        set -gx tide_docker_color $base
-        set -gx tide_distrobox_color $base
-        set -gx tide_toolbox_color $base
+        for lang in $_rose_pine_tide_langs
+            set -gx tide_"$lang"_color $base
+        end
         set -gx tide_direnv_color $base
         set -gx tide_direnv_color_denied $base
         set -gx tide_nix_shell_color $base
@@ -103,25 +90,9 @@ if type -q tide
         set -q fish_color_pine[1]; or return 0
         set -l pine $fish_color_pine[1]
         set -gx tide_character_color $pine
-        set -gx tide_node_bg_color $pine
-        set -gx tide_python_bg_color $pine
-        set -gx tide_go_bg_color $pine
-        set -gx tide_rustc_bg_color $pine
-        set -gx tide_ruby_bg_color $pine
-        set -gx tide_java_bg_color $pine
-        set -gx tide_php_bg_color $pine
-        set -gx tide_elixir_bg_color $pine
-        set -gx tide_crystal_bg_color $pine
-        set -gx tide_zig_bg_color $pine
-        set -gx tide_bun_bg_color $pine
-        set -gx tide_aws_bg_color $pine
-        set -gx tide_gcloud_bg_color $pine
-        set -gx tide_kubectl_bg_color $pine
-        set -gx tide_terraform_bg_color $pine
-        set -gx tide_pulumi_bg_color $pine
-        set -gx tide_docker_bg_color $pine
-        set -gx tide_distrobox_bg_color $pine
-        set -gx tide_toolbox_bg_color $pine
+        for lang in $_rose_pine_tide_langs
+            set -gx tide_"$lang"_bg_color $pine
+        end
         set -gx tide_vi_mode_bg_color_default $pine
     end
 
